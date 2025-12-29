@@ -1,0 +1,39 @@
+{
+  "name": "shreyansh-npm-cli",
+  "version": "1.0.0",
+  "description": "CLI resume of Shreyansh Paliwal",
+  "homepage": "https://github.com/shreyp135/shreyansh-npm-cli#readme",
+  "bugs": {
+    "url": "https://github.com/shreyp135/shreyansh-npm-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyp135/shreyansh-npm-cli.git"
+  },
+  "license": "ISC",
+  "author": "shreyp135",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "bin": {
+    "shreyansh": "./dist/index.js"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.9.4",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^13.1.0",
+    "ora": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
