@@ -23,6 +23,7 @@
     "shreyansh": "./dist/index.js"
   },
   "dependencies": {
+    "@clack/prompts": "^0.11.0",
     "boxen": "^8.0.1",
     "chalk": "^5.6.2",
     "chalk-animation": "^2.0.3",
