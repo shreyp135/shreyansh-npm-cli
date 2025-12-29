@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
-import inquirer from "inquirer";
 import { pastel } from "gradient-string";
 import figlet from "figlet";
 import boxen from "boxen";
@@ -19,7 +18,8 @@ async function welcome() {
 
   console.log(
     pastel(
-      figlet.textSync("SHREYANSH PALIWAL", { horizontalLayout: "full" })
+      figlet.textSync("SHREYANSH PALIWAL", {   horizontalLayout: "fitted",
+        verticalLayout: "fitted" })
     )
   );
 }
