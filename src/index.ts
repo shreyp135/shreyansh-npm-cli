@@ -18,7 +18,7 @@ async function welcome() {
 
   console.log(
     pastel(
-      figlet.textSync("SHREYANSH PALIWAL", {   horizontalLayout: "fitted",
+      figlet.textSync("SHREYANSH", {   horizontalLayout: "fitted",
         verticalLayout: "fitted" })
     )
   );
